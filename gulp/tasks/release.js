@@ -176,7 +176,7 @@ module.exports = function(gulp) {
       spawn(`
         gulp build &&
         gulp push-changes &&
-        gulp create-push-release-tag &&
+        gulp create-push-release-tag
       `, [], {shell: true, stdio: 'inherit'});
 
       done();
